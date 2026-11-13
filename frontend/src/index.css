@@ -1,0 +1,60 @@
+:root {
+  /* ColorHunt Palette: #FFCED8, #FFDDDD, #FFF4DE, #FFE8C4 */
+  --palette-pink-1: #FFCED8;
+  --palette-pink-2: #FFDDDD;
+  --palette-cream-1: #FFF4DE;
+  --palette-peach: #FFE8C4;
+
+  /* Elevated Complementary Healthcare Shades */
+  --primary-rose: #E56B88;
+  --primary-deep: #5A1E2D;
+  --primary-hover: #D45372;
+  --surface-cream: #FFFAF0;
+  --card-bg: #FFFFFF;
+  --border-soft: #F5D3DB;
+  --border-subtle: #FBE6EB;
+  
+  /* Text & Typography */
+  --text-primary: #1F2937;
+  --text-secondary: #4B5563;
+  --text-muted: #6B7280;
+  --text-accent: #9A2C46;
+
+  /* Clinical Status */
+  --status-normal-bg: #E8F5E9;
+  --status-normal-text: #2E7D32;
+  --status-caution-bg: #FFF3E0;
+  --status-caution-text: #E65100;
+  --status-urgent-bg: #FFEBEE;
+  --status-urgent-text: #C62828;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(90, 30, 45, 0.04);
+  --shadow-md: 0 8px 24px rgba(90, 30, 45, 0.06);
+  --shadow-lg: 0 16px 40px rgba(90, 30, 45, 0.09);
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--surface-cream);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}
